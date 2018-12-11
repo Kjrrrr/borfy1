@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const Client = new Discord.Client();
-client.on('ready', () => {
+Client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log('')
   console.log('')
@@ -28,8 +28,8 @@ Client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("512569035347460106");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**Welcome to Fun ..**`), 3000)        
+setTimeout(() => mohamed.send(`Welcome To **Fún** Server ...`), 3000)        
 }
 });
 });
-client.login(process.env.BOT_TOKEN);
+Client.login(process.env.BOT_TOKEN);
