@@ -31,4 +31,5 @@ if(mohamed) {
 setTimeout(() => mohamed.send(`**Welcome to Fun ..**`), 3000)        
 }
 });
+});
 client.login(process.env.BOT_TOKEN);
