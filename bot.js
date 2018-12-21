@@ -26,7 +26,10 @@ const Util = require('discord.js');
         console.log('')
         console.log('')
       
+const Discord = require('discord.js');
 
+const Util = require('discord.js');
+    client = new Discord.Client({sisableEveryone: true})
  const devs = ['392414705873977346'];
 const adminprefix = "K";
 client.on('message', message => {
